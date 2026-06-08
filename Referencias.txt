@@ -1,4 +1,8 @@
 https://portal.vidadesilicio.com.br/modulo-rfid-rc522-mifare/
+https://www.electronicwings.com/esp32/rfid-rc522-interfacing-with-esp32
+https://docs.cirkitdesigner.com/component/1a67bee7-de27-46be-8922-740cef7ebaec/rfid-rc522
+https://www.electronicwings.com/esp32/esp32-wi-fi-basics-getting-started
+
 
 Videos:
 https://www.youtube.com/playlist?list=PL_lACfCyhF7oNEMSKWRgBUdxatymjTSEM

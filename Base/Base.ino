@@ -20,6 +20,9 @@ void setup()
   Serial.begin(9600);
   SPI.begin();
   mfrc522.PCD_Init();
+
+  delay(10);
+  mfrc522.PCD_DumpVersionToSerial();
   
   Serial.println("Aproxime o seu cartao/TAG do leitor");
   Serial.println();
@@ -78,7 +81,7 @@ void loop()
   Serial.print("Mensagem : ");
   conteudo.toUpperCase();
   
-  if (conteudo.substring(1) == "D6 35 19 7E") // ID CARTÃO AUTORIZADO
+  if (conteudo.substring(1) == "5A D4 5B 32") // ID CARTÃO AUTORIZADO
   {
     Serial.println("Acesso autorizado !");
     Serial.println();
